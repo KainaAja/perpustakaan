@@ -1,6 +1,6 @@
-const API_KEY = 'AIzaSyAGqc7eaFTzcf89Z9q0eqlyW9N-7LaM0cU';
+const API_KEY = 'your_api_key';
 const API_URL = `https://www.googleapis.com/books/v1/volumes?q=flowers&filter=free-ebooks&key=${API_KEY}`;
-const GET = `https://www.googleapis.com/books/v1/volumes?q=flowers&filter=free-ebooks&key=AIzaSyAGqc7eaFTzcf89Z9q0eqlyW9N-7LaM0cU`;
+const GET = `https://www.googleapis.com/books/v1/volumes?q=flowers&filter=free-ebooks&key=your_api_key`;
 
 const main = document.getElementById('main');
 const form = document.getElementById('form');
